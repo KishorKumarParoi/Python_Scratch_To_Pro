@@ -1,0 +1,1 @@
+print("There are some Modules like Pandas, Scikit-learn & Tensorflow in Python which is used for different purposes.Deep Learning, Full Stack Development etc various aspects are fullfilled by Python.This packages are installed by pip command(pip install pandas)")
