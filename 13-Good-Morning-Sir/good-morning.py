@@ -29,15 +29,15 @@ hour += 6
 print(hour)
 
 if (hour == 6):
-  print("Good Morning")
+    print("Good Morning Sir")
 elif (hour == 12):
-  print("Good Afternoon")
+    print("Good Afternoon Sir")
 elif (hour == 18):
-  print("Good Evening")
+    print("Good Evening Sir")
 elif (hour == 0):
-  print("Good Night")
+    print("Good Night Sir")
 else:
-  print("Enjoy Happy Time")
+    print("Enjoy Happy Time Sir")
 
 timestamp = time.strftime("%H:%M:%S")
 print(timestamp)
