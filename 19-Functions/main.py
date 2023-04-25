@@ -1,20 +1,20 @@
 def calculateGmean(a, b):
-  mean = (a * b) / (a + b)
-  print(mean)
+    mean = (a * b) / (a + b)
+    print(mean)
 
 
 # builtin function & user-defined function
 
 
 def isGreater(a, b):
-  if (a > b):
-    print("first is greater")
-  else:
-    print("second number is greater or equal")
+    if (a > b):
+        print("first is greater")
+    else:
+        print("second number is greater or equal")
 
 
 def isLesser(a, b):
-  pass  # I will write latter this function
+    pass  # I will write latter this function
 
 
 a = 9
