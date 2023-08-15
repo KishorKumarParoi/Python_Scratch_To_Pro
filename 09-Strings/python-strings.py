@@ -1,0 +1,11 @@
+a = "Helxo World"
+print(a[1:4])
+print(a[1:])
+print(a[:4])
+print(a[-5:-2])
+print(a[-5:])
+print(a[:-2])
+print(a[-2:])
+print(a[1:-2])
+# print(a[1:-2:2])
+# print(a[1:-2:3])
