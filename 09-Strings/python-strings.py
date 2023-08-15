@@ -23,3 +23,19 @@ if "free" in txt:
 
 if "expensive" not in txt:
     print("No, 'expensive' is NOT present.")
+
+
+# String methods
+a = "Hello, World!"
+print(a.upper())
+
+a = "Hello, World!"
+print(a.lower())
+
+a = " Hello, World! "
+print(a.strip())  # returns "Hello, World!"
+
+a = "Hello, World!"
+print(a.replace("H", "K"))
+
+print(a.split(","))  # returns ['Hello', ' World!']
