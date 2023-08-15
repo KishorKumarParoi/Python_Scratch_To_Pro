@@ -39,3 +39,20 @@ a = "Hello, World!"
 print(a.replace("H", "K"))
 
 print(a.split(","))  # returns ['Hello', ' World!']
+
+x = 100
+txt = "The temperature is {} degrees"
+print(txt.format(x))
+
+apple = 100
+komla = 20
+jam = 10
+
+order = "I order {} apples, {} komla and {} jam"
+print(order.format(apple, komla, jam))
+
+order = "I order {2} apples, {0} komla and {1} jam"
+print(order.format(apple, komla, jam))
+
+order = "I order {c} apples, {b} komla and {a} jam"
+print(order.format(a=apple, b=komla, c=jam))
