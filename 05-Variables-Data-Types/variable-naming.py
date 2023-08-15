@@ -39,3 +39,12 @@ print(k)
 print(x)
 print(y)
 print(z)
+
+# Output Variables
+
+print(k, x, y, z)
+print(k + x + y + z)
+print(k + " " + x + " " + y + " " + z)
+
+x = 12
+print(str(x) + y)  # error show korbe
