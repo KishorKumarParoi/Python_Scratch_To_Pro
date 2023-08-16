@@ -91,3 +91,37 @@ txt3 = "My name is {}, I'm {}".format("John", 36)
 print(txt1)
 print(txt2)
 print(txt3)
+
+# txt = "For only {price:.2f} dollars!"
+# print(txt.format(price = 49))
+
+txt = "Company420"
+print(txt.isalnum())
+
+txt = "CompanyX"
+print(txt.isalpha())
+
+txt = "Company123"
+print(txt.isalnum())
+
+txt = "\u0047"  # unicode for G
+x = txt.isdecimal()
+print(x)
+
+txt = "50800"
+x = txt.isdigit()
+print(x)
+
+txt = "Demo"
+x = txt.isidentifier()
+print(x)
+
+a = "MyFolder"
+b = "Demo002"
+c = "2bring"
+d = "my demo"
+
+print(a.isidentifier())
+print(b.isidentifier())
+print(c.isidentifier())
+print(d.isidentifier())
