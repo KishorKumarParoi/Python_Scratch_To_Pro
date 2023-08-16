@@ -78,3 +78,16 @@ txt = "Hello, welcome to my world."
 print(txt.find("welcome"))
 print(txt.index("welcome"))
 print(txt.find("e", 5, 10))
+
+# named indexes:
+txt1 = "My name is {fname}, I'm {age}, I got salaray {salary:.2f}".format(
+    fname="John", age=36, salary=120
+)
+# numbered indexes:
+txt2 = "My name is {0}, I'm {1}".format("John", 36)
+# empty placeholders:
+txt3 = "My name is {}, I'm {}".format("John", 36)
+
+print(txt1)
+print(txt2)
+print(txt3)
