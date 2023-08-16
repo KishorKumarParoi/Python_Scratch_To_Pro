@@ -45,3 +45,36 @@
 # 43. translate
 # 44. upper
 # 45. zfill
+
+txt = "hello, and welcome to my world."
+txt.capitalize()
+print(txt)
+
+txt = "Hello, And WeLcome To My World."
+txt.casefold()
+print(txt)
+
+txt = "banana"
+txt.center(20)
+print(txt)
+
+txt = "I love apples, apple are my favorite fruit"
+txt.count("apple")
+print(txt)
+
+txt = "My name is Ståle"
+txt.encode()
+print(txt)
+
+txt = "Hello, welcome to my world."
+print(txt.endswith("."))
+print(txt.endswith("my world.", 5, 11))
+
+txt = "H\te\tl\tl\to"
+txt.expandtabs(2)
+print(txt)
+
+txt = "Hello, welcome to my world."
+print(txt.find("welcome"))
+print(txt.index("welcome"))
+print(txt.find("e", 5, 10))
