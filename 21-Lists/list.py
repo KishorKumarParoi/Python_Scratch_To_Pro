@@ -16,3 +16,10 @@ print(z[2:])
 
 if "apple" in z:
     print("Yes")
+
+print(len(z))
+z[1] = "kathal"
+z[3:6] = ["blackpink", "jambura"]
+print(z)
+z.insert(2, "kola")
+print(z)
