@@ -23,3 +23,22 @@ z[3:6] = ["blackpink", "jambura"]
 print(z)
 z.insert(2, "kola")
 print(z)
+
+z.append("Shalar Put")
+print(z)
+
+z.remove("kola")
+print(z)
+
+z.extend(["kola", "kathal"])
+print(z)
+z.extend(y)
+print(z)
+z.pop()
+print(z)
+
+thistuple = ("apple", "banana", "cherry")
+z.append(thistuple)
+print(z)
+z.extend(thistuple)
+print(z)
