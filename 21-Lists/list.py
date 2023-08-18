@@ -82,3 +82,32 @@ print(newlist)
 
 newlist = [x for x in z if x != "kola"]
 print(newlist)
+
+z.pop(-4)
+z.sort()
+print(z)
+
+z.sort(reverse=True)
+print(z)
+
+numbers = [10, 1, 23, 233, 3, 7, 9, 100]
+numbers.sort()
+print(numbers)
+
+numbers.sort(reverse=True)
+print(numbers)
+
+
+def myfunc(n):
+    return abs(n - 50)
+
+
+numbers.append(49)
+numbers.sort(key=myfunc)
+print(numbers)
+
+z.sort(key=str.lower)
+print(z)
+
+z.reverse()
+print(z)
