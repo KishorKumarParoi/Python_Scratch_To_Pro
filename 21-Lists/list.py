@@ -70,3 +70,15 @@ while i < len(z):
 #  shortest text
 
 [print(x) for x in z]
+
+newlist = []
+for x in z:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
+
+newlist = [x for x in z if "a" in x]
+print(newlist)
+
+newlist = [x for x in z if x != "kola"]
+print(newlist)
