@@ -11,3 +11,10 @@ list4 = list(list3)
 list4.append(1000)
 print(list4)
 print(list3)
+
+for x in list4:
+    list3.append(x)
+print(list3)
+
+print(list3.count(100))
+print(list3.index(1000))
