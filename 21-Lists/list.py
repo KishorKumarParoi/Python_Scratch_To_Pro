@@ -42,3 +42,16 @@ z.append(thistuple)
 print(z)
 z.extend(thistuple)
 print(z)
+
+z.pop(2)
+print(z)
+z.remove("kathal")
+print(z)
+del z[3]
+print(z)
+y = z
+print(y)
+# z.clear()
+# print(z)
+# del z
+# print(z)  # error
