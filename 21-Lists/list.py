@@ -55,3 +55,18 @@ print(y)
 # print(z)
 # del z
 # print(z)  # error
+
+for x in z:
+    print(x)
+
+for i in range(len(z)):
+    print(z[i])
+
+i = 0
+while i < len(z):
+    print(z[i])
+    i += 1
+
+#  shortext text
+
+[print(x) for x in z]
