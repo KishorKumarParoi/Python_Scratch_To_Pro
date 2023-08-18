@@ -67,6 +67,6 @@ while i < len(z):
     print(z[i])
     i += 1
 
-#  shortext text
+#  shortest text
 
 [print(x) for x in z]
