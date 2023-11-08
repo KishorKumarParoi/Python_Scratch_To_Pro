@@ -13,7 +13,7 @@ x = txt.count("apepl")
 
 print(x)
 
-txt = "I could eat bananas all day bananas and Kolas"
+txt = "I could eat bananas, all day, bananas, and, Kolas"
 
 x = txt.partition("bananas")
 
@@ -21,5 +21,12 @@ print(x)
 
 x = txt.rpartition("bananas")
 print(x)
+
+x = txt.split(',', (2))
+print(x)
+
+x = txt.rsplit(',', (2))
+print(x)
+
 
 print('\n')
