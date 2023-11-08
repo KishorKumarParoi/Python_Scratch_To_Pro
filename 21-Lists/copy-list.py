@@ -18,3 +18,7 @@ print(list3)
 
 print(list3.count(100))
 print(list3.index(1000))
+
+txt = "Hello Sam!"
+mytable = str.maketrans("S", "P")
+print(txt.translate(mytable))
