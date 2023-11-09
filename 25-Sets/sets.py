@@ -34,3 +34,14 @@ my_set.add("apple")
 
 for x in my_set:
     print(x)
+
+y = {'bangi', 'tormuz'}
+x = my_set.union(y)
+print(x)
+print('my_set : ', my_set)
+
+y.add('apples')
+print(y)
+x = my_set.update(y)
+print(my_set)
+print(x)
