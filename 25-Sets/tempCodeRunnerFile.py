@@ -1,2 +1,2 @@
-for(x in range(len(my_set))):
-#     print(my_set[x])
+oft', 'apple'}
+print(x.union(y))

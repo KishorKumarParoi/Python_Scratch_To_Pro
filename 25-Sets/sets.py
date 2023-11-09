@@ -45,3 +45,13 @@ print(y)
 x = my_set.update(y)
 print(my_set)
 print(x)
+
+x = {'apple', 'banana', 'cherry'}
+y = {'google', 'microsoft', 'apple'}
+# print(x.union(y))
+x.intersection_update(y)
+print(x)
+print(y)
+
+print(x.symmetric_difference(y))
+print(x.difference(y))
