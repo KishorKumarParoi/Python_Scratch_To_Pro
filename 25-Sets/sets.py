@@ -23,3 +23,14 @@ print(my_set)
 # remove raise error if not found but discard doesn't
 # pop() return deleted item and delete random number
 
+# my_set.clear()
+print(my_set)
+my_set.add("apple")
+# del my_set  
+# print(my_set)  # raise error
+
+# for x in range(len(my_set)): can't index iterate
+    # print(my_set[x])
+
+for x in my_set:
+    print(x)
