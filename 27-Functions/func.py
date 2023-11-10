@@ -10,3 +10,11 @@ def my_func2(**names):
 
 my_func2(name = 'Kishor', age = '24', city = 'Dhaka')
 
+# defaul parameter value
+
+def my_func3(country = "Bangladesh"):
+    print("I am from " + country)
+
+my_func3("India")
+my_func3("USA")
+my_func3()
