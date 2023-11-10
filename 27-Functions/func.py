@@ -18,3 +18,14 @@ def my_func3(country = "Bangladesh"):
 my_func3("India")
 my_func3("USA")
 my_func3()
+
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(4)
