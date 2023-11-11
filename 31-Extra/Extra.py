@@ -14,3 +14,6 @@ print(x)
 y = json.loads(x)
 y.update({"city": "Dhaka"})
 print(y)
+
+z = json.dumps(y)
+print(z)
