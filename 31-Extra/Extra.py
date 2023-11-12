@@ -17,3 +17,10 @@ print(y)
 
 z = json.dumps(y)
 print(z)
+
+import re
+
+txt = "The rain in Spain"
+x = re.search("^The.*Spain$", txt)
+print(x)
+
